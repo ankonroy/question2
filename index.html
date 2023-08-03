@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section id="main">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="design/logo.png" alt="Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile_menu">
+                    <ul>
+                        <li onclick="closeNav()"><a href="#">Features</a></li>
+                        <li onclick="closeNav()"><a href="#">Pricing</a></li>
+                        <li onclick="closeNav()"><a href="#">Help</a></li>
+                        <li onclick="closeNav()"><a href="#">Blog</a></li>
+                        <li onclick="closeNav()"><a href="#">About Us</a></li>
+                        <li onclick="closeNav()"><a href="#">Log In</a></li>
+                        <li onclick="closeNav()"><a href="#">Sign Up</a></li>
+                    </ul>
+                </div>
+                <div class="btns">
+                    <button>Log In</button>
+                    <button>Sign Up</button>
+                </div>
+                <div class="toggle_mobile" onclick="openNav()">
+                    <!-- <span class="top"></span>
+                    <span class="low"></span> -->
+                    <img class="menu_btn" src="design/open.png" alt="">
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="container">
+                <div class="left">
+                    <div class="l_box">
+                        <h4>Start Saving Money</h4>
+                        <h1>Smart Credit Card For Your Daily Life.</h1>
+                        <button>Download <img src="design/download_icon.png" alt=""></button>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="design/mobile_illustration.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
